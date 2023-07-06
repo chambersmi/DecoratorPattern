@@ -1,6 +1,4 @@
-﻿using DataLibrary;
-
-namespace DataLibrary;
+﻿namespace DataLibrary.Decorators;
 
 public abstract class CondimentDecorator : Beverage
 {

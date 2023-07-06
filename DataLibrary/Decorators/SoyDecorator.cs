@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLibrary
+namespace DataLibrary.Decorators
 {
     public class SoyDecorator : CondimentDecorator
     {
@@ -12,7 +12,7 @@ namespace DataLibrary
 
         public SoyDecorator(Beverage beverage)
         {
-            this._beverage = beverage;
+            _beverage = beverage;
         }
 
         public override double Cost()
